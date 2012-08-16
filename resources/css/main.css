@@ -1,0 +1,87 @@
+@font-face {
+    font-family: vertigo;
+    src: url('../fonts/vertigo/VertigoPlusFLF-Bold.ttf');
+}
+
+html, body {
+  /*font-family: "Helvetica Neue", HelveticaNeue, "Helvetica-Neue", Helvetica, "BBAlpha Sans", sans-serif;*/
+  font-family: Verdana;
+  font-weight: normal;
+  color: #5B6B5A;
+  position: relative;
+  background-color: #F2F2E9;
+  -webkit-text-size-adjust: none;
+}
+
+#header {
+    padding-top: 25px;
+}
+
+#search_bar {
+    margin-top: 125px;
+}
+
+#search_bar input[type=search] {
+    height: 50px;
+    width: 500px;
+    color: #555;
+    font-size: 16pt;
+}
+
+#search_bar input[type=submit] {
+    height: 50px;
+    width: 75px;
+    font-size: 16pt;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0A3606), to(#0F5409));
+    color: #FFF;
+    border: 1px solid #0A3606;
+}
+
+#search_bar input[type=submit]:focus,
+#search_bar input[type=submit]:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#0F5409), to(#0A3606));
+}
+
+#footer {
+    margin-top: 100px;
+}
+
+#footer .foot_divider {
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #BBB;
+}
+
+#footer .foot_item a:link,
+#footer .foot_item a:visited, 
+#footer .foot_item a:hover, 
+#footer .foot_item a:active {
+    color: #90A88D;
+    font-family: vertigo;
+    font-size: 16pt;
+}
+
+.main {
+    margin-top: 100px;
+    min-height: 200px;
+}
+
+#affiliates .entry {
+    padding: 20px;
+}
+
+#affiliates .entry .screenshot {
+    background: #555;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+#affiliates .entry .affiliate_entry {
+    display: inline-block;
+    height: 150px;
+    width: 500px;
+    background: #5B6B5A;
+    margin-left: 10px;
+    color: #555;
+}
